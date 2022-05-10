@@ -1,0 +1,9 @@
+name = "solo"
+license = "MIT"
+description = "My fork of the lotabout theme with solarized colors"
+tags = ["blog", "minimal", "dark", "light"]
+features = ["blog"]
+
+[author]
+  name = "Edward Gathuru"
+  homepage = "https://github.com/eggathuru"
