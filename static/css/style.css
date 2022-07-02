@@ -79,19 +79,17 @@ footer { padding-top: 20px }
 /* solarized */
 @media (prefers-color-scheme: light), (prefers-color-scheme: no-preference) {
     html { background-color: #fdf6e3 }
+    h1.entry-title { color: #586e75 }
+    body { color: #93a1a1; }
 }
 @media (prefers-color-scheme: dark) {
     html { background-color: #002b36 }
-}
-body {
-  color: #93a1a1;
+    h1.entry-title { color: #93a1a1 }
+    body { color: #839496; }
 }
 a  { color: #b58900; text-decoration: none; }
 a:hover  { text-decoration: underline; }
-h1.entry-title {
-  font-size: 26px;
-  color: #586e75;
-}
+h1.entry-title { font-size: 26px; }
 h1 { color: #cb4b16 }
 h2 {
   font-size: 1.17em;
