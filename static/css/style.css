@@ -77,12 +77,12 @@ footer { padding-top: 20px }
 }
 
 /* solarized */
-@media (prefers-color-scheme: light), (prefers-color-scheme: no-preference) {
+@media (prefers-color-scheme: light) {
     html { background-color: #fdf6e3 }
     h1.entry-title { color: #586e75 }
     body { color: #93a1a1; }
 }
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark), (prefers-color-scheme: no-preference) {
     html { background-color: #002b36 }
     h1.entry-title { color: #93a1a1 }
     body { color: #839496; }
