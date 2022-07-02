@@ -27,7 +27,6 @@ nav ul li {
 
 body {
     font-family: monospace;
-    padding: 0 25%; /* side margins */
     margin: 0;
 }
 
@@ -51,6 +50,7 @@ footer { padding-top: 20px }
   }
   body {
     font-size: medium;
+    padding: 0 11%; /* side margins */
   }
 }
 
@@ -67,6 +67,7 @@ footer { padding-top: 20px }
   }
   body {
     font-size: large;
+    padding: 0 25%; /* side margins */
   }
 }
 
