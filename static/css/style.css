@@ -75,9 +75,12 @@ footer { padding-top: 20px }
     padding: 10px;
 }
 
-/* solarized light */
-html {
-  background-color: #fdf6e3;
+/* solarized */
+@media (prefers-color-scheme: light), (prefers-color-scheme: no-preference) {
+    html { background-color: #fdf6e3 }
+}
+@media (prefers-color-scheme: dark) {
+    html { background-color: #002b36 }
 }
 body {
   color: #93a1a1;
