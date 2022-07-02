@@ -114,3 +114,13 @@ h6 {
 }
 time, .time { color: #268bd2 }
 #latest-posts { color: #93a1a1 }
+
+/* Header bullets */
+h1:before{content:"◉ "}
+h2:before{content:"○ "}
+h3:before{content:"✸ "}
+h4:before{content:"✿ "}
+h4:before{content:"◉ "}
+h6:before{content:"○ "}
+.entry-title:before { content: "" }
+#latest-posts:before { content: "" }
