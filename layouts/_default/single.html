@@ -3,7 +3,7 @@
 		<article>
 			<h1 class="entry-title">{{ .Title }}</h1>
                         {{ if (not (isset .Params "hidedate")) }}
-			<time datetime="{{ .Date.Format "2006-01-02T15:04:05" }}">{{ .Date.Format "2006-01-02 15:04" }}</time>
+			<time datetime="{{ .Date.Format "2006-01-02T15:04:05" }}">{{ .Date.Format "2006-01-02 Mon 15:04" }}</time>
 			<div>
                         {{ end }}
 				{{ .Content }}

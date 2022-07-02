@@ -112,8 +112,12 @@ h6 {
   font-size: .5em;
   color: #859900;
 }
-time, .time { color: #268bd2 }
 #latest-posts { color: #93a1a1 }
+time, .time { color: #268bd2 }
+
+/* Wrap times in [...] */
+time:before, .time:before {content:"["}
+time:after, .time:after {content:"]"}
 
 /* Header bullets */
 h1:before{content:"◉ "}
